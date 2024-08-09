@@ -9,12 +9,22 @@
     "prettier": "prettier --write src/"
   },
   "dependencies": {
+    "@formkit/core": "^1.6.5",
+    "@formkit/vue": "^1.6.5",
     "@halo-dev/api-client": "^2.17.0",
     "@halo-dev/components": "^2.17.0",
     "@halo-dev/console-shared": "^2.17.0",
+    "@tanstack/vue-query": "^4.32.0",
+    "@vitejs/plugin-vue-jsx": "^2.1.1",
+    "@vueuse/core": "^10.2.1",
+    "@vueuse/router": "^10.2.1",
     "axios": "^1.7.2",
     "canvas-confetti": "^1.9.3",
-    "vue": "^3.4.31"
+    "dayjs": "^1.11.9",
+    "lodash.clonedeep": "^4.5.0",
+    "vue": "^3.4.31",
+    "vuedraggable": "^4.1.0",
+    "yaml": "^2.3.1"
   },
   "devDependencies": {
     "@halo-dev/ui-plugin-bundler-kit": "^2.17.0",
@@ -23,6 +33,7 @@
     "@tsconfig/node20": "^20.1.4",
     "@types/canvas-confetti": "^1.6.4",
     "@types/jsdom": "^21.1.7",
+    "@types/lodash.clonedeep": "^4.5.7",
     "@types/node": "^20.14.9",
     "@vitejs/plugin-vue": "^5.0.5",
     "@vue/eslint-config-prettier": "^9.0.0",

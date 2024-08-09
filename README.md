@@ -1,6 +1,20 @@
-# plugin-starter
+# plugin-third-party-webhook-converter
 
-Halo 2.0 插件开发快速开始模板。
+第三方Webhook转换器。以适配Halo内容管理。
+
+<p align="center">
+    <a href="/">
+        <img src="https://img.shields.io/github/v/release/PG-Z/plugin-third-party-webhook-converter?color=F38181&amp;label=version&amp;logo=v&amp;logoColor=F38181&amp;style=for-the-badge" referrerpolicy="no-referrer" alt="plugin version" />
+    </a>
+    <a href="/">
+        <img src="https://img.shields.io/github/downloads/PG-Z/plugin-third-party-webhook-converter/total?color=FCE38A&amp;logo=github&amp;logoColor=FCE38A&amp;style=for-the-badge" referrerpolicy="no-referrer" alt="github downloads" />
+    </a>
+    <a href="/">
+        <img src="https://img.shields.io/github/release-date/PG-Z/plugin-third-party-webhook-converter?color=95E1D3&amp;label=release date&amp;logo=puppet&amp;logoColor=95E1D3&amp;style=for-the-badge" referrerpolicy="no-referrer" alt="release-date" />
+    </a>
+    <img src="https://img.shields.io/github/last-commit/PG-Z/plugin-third-party-webhook-converter?style=for-the-badge&amp;logo=lospec&amp;logoColor=a6d189" referrerpolicy="no-referrer" alt="last-commit" />
+    <a href="/"><img src="https://img.shields.io/badge/halo-%3E=2.17.0-8caaee?style=for-the-badge&amp;logo=hexo&amp;logoColor=8caaee" referrerpolicy="no-referrer" alt="Required Halo version" /></a>
+</p>
 
 ## 开发环境
 
@@ -70,7 +84,7 @@ halo:
   plugin:
     runtime-mode: development
     fixedPluginPath:
-      - "/path/to/plugin-starter"
+      - "/path/to/plugin-third-party-webhook-converter"
 ```
 
 最后重启 Halo 项目即可。
